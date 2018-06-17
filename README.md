@@ -1,11 +1,24 @@
+# DRE-Lite
+
+Make heat shields capable of failing, and make ablator depletion matter. Simply.
+
+See [user README](ImprovedAblator/GameData/ImprovedAblator/README.md) for details.
+
+# Compile
+
 To compile, make sure you have MonoDevelop installed then
 
     xbuild /p:Configuration=Release
 
-then copy `ImprovedAblator/bin/Release/ImprovedAblator.dll` to `GameData/ImprovedAblator/Plugins`.
+or open the project in `MonoDevelop` and "rebuild all".
 
-Copy `ImprovedAblator/ModuleManagerConfigs/*.cfg` to `GameData/ImprovedAblator`.
+Then copy `ImprovedAblator/bin/Release/GameData/ImprovedAblator` to your KSP's GameData.
 
 Start the game. Watch the firey death.
 
-There's no target for packaging it yet. Watch this space.
+# Pre-built
+
+No pre-built packages yet.
+
+I'm looking at how to automate with Travis CI but there are obvious legal
+concerns with the KSP assemblies. GitHub doesn't offer user uploads.
