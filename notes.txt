@@ -1,0 +1,39 @@
+Apollo:
+
+- Offset centre of gravity to achieve lifting flight (can do in ksp?)
+- L/D 0.3-0.4
+- 28* AoA 
+- initial entry angle to horizon 5.2* to 9.45* @ 400,000ft (120000m), downrange flight up to 3500nm (6500km)
+- entry velocity ft/sec 36,333 (11074 m/s)
+- 20G max decel
+- 600F (315C) bondline temp limit
+- max heating rate (lunar) btu/sq.ft-sec = 425 (4,826,000 J/(s.m2))
+- total ref heating btu/sq.ft = 37,522 (4.2e8 W/m2)
+- weight for block 1 was 1700 (770kg) lb, for block 2 was 1500lb (680kg)
+- area 365 sq.ft (33 sq.m)
+- initial density 66 lb/sq.ft (322kg/sq.m) reduced to 35 lb/sq.ft (170 kg/sq.m) of ablative material
+- aerodynamic pressure influences ablation rate (see FIRE tests)
+- low-temp limit of -250F (116K), shield can fail if too cold (!)
+- it actually flew steeper trajectories because the crew preferred it; 26500 btu total load, 1500 nm downrange; vs design of 44500 btu and 3500 nm downrange
+- rescale for kerbin
+
+per
+
+- https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19740007423.pdf
+- https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19930003261.pdf
+
+Gemini, shuttle were insulating/radiative, not ablative. Less charring.
+
+- was insulating and radiative, not ablative
+
+Shuttle TPS didn't have to be as good due to 40 degree AoA and aerobrakes.
+
+
+ksp ideas
+
+- add upgrade nodes to improve heat shield performance and density; or
+- extra heat shield parts for extreme environment re-entry
+- offset CoM in pods for lifting downrange flight, AoA, spin stability
+- tweakable balance slider parts, ballast parts? Add a "ballast" material? (problem is pumping sucks, can't be done from action groups)
+- thermal protection parts designed to mould over stock parts for spaceplanes?
+- lighter but lower performance radiative shields? (or treat them as just built in to spaceplane parts?)
