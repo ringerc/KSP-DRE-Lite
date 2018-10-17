@@ -21,4 +21,4 @@ Start the game. Watch the firey death.
 No pre-built packages yet.
 
 I'm looking at how to automate with Travis CI but there are obvious legal
-concerns with the KSP assemblies. GitHub doesn't offer user uploads.
+concerns with the KSP assemblies.
